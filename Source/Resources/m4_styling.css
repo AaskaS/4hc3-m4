@@ -41,15 +41,19 @@ html {
 }
 
 .messageUnread {
-	width:				375px;
-	height:				100px;
+	margin:				5px;
+	width:				360px;
+	height:				85px;
 	border:				2px solid black;
+	border-radius:		8px;
 }
 
 .messageRead {
-	width:				375px;
-	height:				100px;
+	margin:				5px;
+	width:				360px;
+	height:				85px;
 	border:				2px solid black;
+	border-radius:		8px;
 }
 
 .footerBar {
