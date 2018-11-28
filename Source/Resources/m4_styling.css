@@ -112,14 +112,6 @@ html {
 	border-radius: 		100px;
 }
 
-.profile{
-	width: 				100px;
-	height: 			100px;
-	margin-left: 		135px;
-	margin-top: 		40px;
-
-}
-
 .timestamp{
 	float: 				right;
 	margin-right: 		10px;
@@ -142,6 +134,44 @@ html {
 	border:				2px solid black;
 	border-radius:		8px;
 }
+
+
+/* styling for profile */
+
+.profile{
+	width: 				100px;
+	height: 			100px;
+	margin-top: 		40px;
+
+}
+
+.name{	
+	font-size: 			30px;
+}
+
+.username{
+	text-align: 		center;
+	font-size: 			25px;
+}
+
+
+
+/* styling for stories */
+
+
+.contactStories{
+	margin-top: 		10px;
+	margin-left: 		25px;
+	margin-right: 		10px;
+	margin-bottom: 		10px;
+	width: 				80px;
+	height: 			90px;
+	background-color: 	transparent;
+	border: 			none;
+	
+}
+
+
 
 
 /* styling for the footers in all pages */
