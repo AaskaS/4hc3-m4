@@ -54,6 +54,8 @@ html {
 	border:				2px solid black;
 }
 
+/* styling for contacts  */
+
 .contactBox{
 	margin-top: 		10px;
 	margin-left: 		5px;
@@ -78,22 +80,6 @@ html {
 	height: 			25px;
 }
 
-.notif{
-	margin-top: 		-150px;
-	margin-left: 		150px;
-	width: 				25px;
-	height: 			25px;
-	border-radius: 		100px;
-}
-
-.profile{
-	width: 				100px;
-	height: 			100px;
-	margin-left: 		135px;
-	margin-top: 		40px;
-
-}
-
 .alphabetical{
 	font-size: 			20px;
 	font-weight:  		bold;
@@ -112,9 +98,31 @@ html {
 	font-style: 		italic;
 }
 
+
+
+
+/* styling for inbox (some from contacts styling) */
+
+
+.notif{
+	margin-top: 		-150px;
+	margin-left: 		150px;
+	width: 				25px;
+	height: 			25px;
+	border-radius: 		100px;
+}
+
+.profile{
+	width: 				100px;
+	height: 			100px;
+	margin-left: 		135px;
+	margin-top: 		40px;
+
+}
+
 .timestamp{
 	float: 				right;
-	margin-right: 10px;
+	margin-right: 		10px;
 	font-style: 		italic;
 
 }
@@ -135,6 +143,9 @@ html {
 	border-radius:		8px;
 }
 
+
+/* styling for the footers in all pages */
+
 .footerBar {
 	position:			fixed;
 	bottom:				0px;
@@ -151,6 +162,15 @@ html {
 	background: 		transparent;
 	border:				none;
 	font-size: 			20px;
+}
+
+.multipleButtonFooter{
+	width:				183px;
+	height:				70px;	
+	border:				1px solid black;
+	font-size: 			18px;
+	background-color: 	transparent;
+
 }
 
 .footerIcon{
