@@ -64,6 +64,16 @@ input.searchBar {
 	background-color: 	rgb(210, 210, 210);/*Grey*/
 }
 
+.conversationContentWindow {
+	overflow:			scroll;
+	position:			fixed;
+	top:				90px;
+	width:				375px;
+	height:				570px;
+	border:				0px solid black;
+	background-color: 	rgb(210, 210, 210);/*Grey*/
+}
+
 /* styling for contacts  */
 
 .contactBox{
@@ -183,6 +193,59 @@ input.searchBar {
 	background-color: 	transparent;
 	border: 			none;
 	
+}
+
+
+/* styling for conversation */
+
+.conversationContentWindow {
+	overflow:			scroll;
+	top:				90px;
+	width:				375px;
+	height:				570px;
+	border:				0px solid black;
+	background-color: 	rgb(210, 210, 210);/*Grey*/
+}
+.conversationWith {
+	margin: auto;
+	width: 50%;
+	padding:10px;
+}
+
+.userMessageImage{
+	margin-top: 		5px;
+	margin-right: 		5px;
+	margin-left: 		5px;
+	width: 				15px;
+	height: 			15px;
+}
+
+.contactMessage {
+	margin:				5px;
+	width:				300px;
+	height:				auto;
+	border:				3px solid grey;
+	border-radius:		8px;
+	font-weight: 		bold;
+	background-color: 	white;
+	float: left;
+	
+}
+
+.userMessage {
+	margin:				5px;
+	width:				300px;
+	height:				auto;
+	border:				3px solid rgb(200, 162, 200);	/*Light Blue*/;
+	border-radius:		8px;
+	font-weight: 		bold;
+	background-color: 	white;
+	float: right;
+}
+
+.messageContent{
+	font-family:		'Roboto', sans-serif;
+	padding:5px;
 }
 
 
