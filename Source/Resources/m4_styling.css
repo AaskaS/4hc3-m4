@@ -197,6 +197,15 @@ input.searchBar {
 	border: 			none;
 	
 }
+.storyContentWindow {
+	overflow:			scroll;
+	position:			fixed;
+	top:				50px;
+	width:				375px;
+	height:				615px;
+	border:				0px solid black;
+	background-color: 	rgb(210, 210, 210);/*Grey*/
+}
 
 
 /* styling for conversation */
@@ -293,6 +302,24 @@ input.searchBar {
 }
 
 
+.galleryContentWindow {
+	overflow:			scroll;
+	position:			fixed;
+	top:				50px;
+	width:				375px;
+	height:				615px;
+	border:				0px solid black;
+	background-color: 	rgb(210, 210, 210);/*Grey*/
+}
+
+.galleryLabel{
+	font-size: 			22px;
+	margin-top: 		100px;
+	margin-left: 		50px;
+	font-family:		'Roboto', sans-serif;
+}
+
+
 /* styling for the footers in all pages */
 
 .footerBar {
@@ -316,6 +343,7 @@ input.searchBar {
 }
 
 .multipleButtonFooter{
+	position: 			relative;
 	width:				183px;
 	height:				70px;	
 	border:				1px solid black;
@@ -325,6 +353,7 @@ input.searchBar {
 }
 
 .foot{
+	position: 			relative;
 	margin-top: 		10px;
 	position: 			fixed;
 	bottom:				0px;
@@ -332,6 +361,10 @@ input.searchBar {
 	height:				75px;
 	border: 			0px solid black;
 	background-color: 	rgb(200, 162, 200);	/*Light Blue*/
+}
+
+.multifooter{
+	background-color: 	rgb(200, 162, 200);	/*Light Blue*/	
 }
 
 
