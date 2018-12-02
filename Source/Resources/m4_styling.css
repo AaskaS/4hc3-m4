@@ -253,6 +253,45 @@ input.searchBar {
 
 
 
+.pos{
+	text-align: 		center;
+}
+
+.camlabel{
+	font-size: 			22px;
+	margin-top: 		100px;
+	margin-left: 		50px;
+	font-family:		'Roboto', sans-serif;
+}
+
+.camNav{
+	margin-top: 		0px;
+	margin-left: 		5px;
+	background-color: 	transparent;
+	border: 			none;
+	width: 				83px;
+	height: 			50px;
+	font-family:		'Roboto', sans-serif;
+}
+
+.capture{
+	border: 			2px solid black;
+	height: 			60px;
+	width: 				60px;
+	border-radius: 		50%;
+	margin-top: 		475px;
+/*	margin-left: 		100px;*/
+}
+
+.cameraContentWindow {
+	position:			fixed;
+	top:				50px;
+	width:				375px;
+	height:				541px;
+	border:				0px solid black;
+	background-color: 	black;/*Grey*/
+}
+
 
 /* styling for the footers in all pages */
 
