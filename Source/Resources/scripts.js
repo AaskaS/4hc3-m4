@@ -10,6 +10,14 @@ Nolan Slade 		001401079
 Vyome Kishore 		001406201
 
 */
+function scroll(){
+	document.getElementById("end").scrollIntoView();
+}
+
+
+
+
+
 
 function getName(){
 	var name = document.getElementById("name1").innerText;

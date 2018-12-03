@@ -15,8 +15,8 @@ html {
 	max-width:			375px;
 	overflow-x: 		hidden;
 	overflow-y: 		scroll;
-
 }
+
 
 
 .standardNav {
@@ -253,6 +253,18 @@ input.searchBar {
 	font-weight: 		bold;
 	background-color: 	white;
 	margin-left: 		70px;
+}
+
+.newMessage {
+	margin:				5px;
+	width:				360px;
+	height:				auto;
+	border:				3px solid grey;
+	border-radius:		8px;
+	font-weight: 		bold;
+	background-color: 	white;
+	margin-right: 		70px;
+	
 }
 
 .messageContent{
