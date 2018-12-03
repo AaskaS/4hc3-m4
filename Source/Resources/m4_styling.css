@@ -332,6 +332,23 @@ input.searchBar {
 }
 
 
+.contLabel{
+	font-size: 			22px;
+	margin-left: 		20px;
+	font-family:		'Roboto', sans-serif;
+
+}
+
+.contContentWindow{
+	text-align: 		center;
+	margin-top: 		225px;
+	background-color: 	rgb(210, 210, 210);/*Grey*/
+
+}
+
+
+
+
 /* styling for the footers in all pages */
 
 .footerBar {
@@ -359,7 +376,7 @@ input.searchBar {
 	width:				183px;
 	height:				70px;	
 	border:				1px solid black;
-	font-size: 			18px;
+	font-size: 			15px;
 	background-color: 	transparent;
 
 }
