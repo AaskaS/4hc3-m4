@@ -15,14 +15,9 @@ function scroll(){
 }
 
 
-
-
-
-
 function getName(){
-	var name = document.getElementById("name1").innerText;
+	var name = document.getElementById("user").innerText;
 	var uname = document.getElementById("uname1").innerText;
-	console.log(name);
 	window.localStorage.setItem("name", name);
 	window.localStorage.setItem("uname", uname);
 	window.location='contactProfile.html';
@@ -30,9 +25,8 @@ function getName(){
 }
 
 function getName2(){
-	var name = document.getElementById("name2").innerText;
+	var name = document.getElementById("user2").innerText;
 	var uname = document.getElementById("uname2").innerText;
-	console.log(name);
 	window.localStorage.setItem("name", name);
 	window.localStorage.setItem("uname", uname);
 	window.location='contactProfile.html';
@@ -40,9 +34,8 @@ function getName2(){
 }
 
 function getName3(){
-	var name = document.getElementById("name3").innerText;
+	var name = document.getElementById("user3").innerText;
 	var uname = document.getElementById("uname3").innerText;
-	console.log(name);
 	window.localStorage.setItem("name", name);
 	window.localStorage.setItem("uname", uname);
 	window.location='contactProfile.html';
@@ -50,19 +43,8 @@ function getName3(){
 }
 
 function getName4(){
-	var name = document.getElementById("name4").innerText;
+	var name = document.getElementById("user4").innerText;
 	var uname = document.getElementById("uname4").innerText;
-	console.log(name);
-	window.localStorage.setItem("name", name);
-	window.localStorage.setItem("uname", uname);
-	window.location='contactProfile.html';
-
-}
-
-function getName5(){
-	var name = document.getElementById("name5").innerText;
-	var uname = document.getElementById("uname5").innerText;
-	console.log(name);
 	window.localStorage.setItem("name", name);
 	window.localStorage.setItem("uname", uname);
 	window.location='contactProfile.html';
@@ -70,30 +52,64 @@ function getName5(){
 }
 
 
-function getName6(){
-	var name = document.getElementById("name6").innerText;
-	var uname = document.getElementById("uname6").innerText;
-	console.log(name);
-	window.localStorage.setItem("name", name);
-	window.localStorage.setItem("uname", uname);
-	window.location='contactProfile.html';
+function getConvo(){
+	var user = document.getElementById("user").innerText;
+	window.localStorage.setItem("name", user);
+	window.location='conversation.html';
+
+}
+
+function getConvo2(){
+	var user = document.getElementById("user2").innerText;
+	window.localStorage.setItem("name", user);
+	window.location='conversation.html';
+
+}
+
+function getConvo3(){
+	var user = document.getElementById("user3").innerText;
+	window.localStorage.setItem("name", user);
+	window.location='conversation.html';
+
+}
+
+function getConvo4(){
+	var user = document.getElementById("user4").innerText;
+	window.localStorage.setItem("name", user);
+	window.location='conversation.html';
 
 }
 
 function prName(){
-	console.log(window.localStorage.getItem("contact"));
+	console.log("Profile of " + window.localStorage.getItem("name"));
 	document.getElementById("user").innerText = "Profile of " + window.localStorage.getItem("name");
 	document.getElementById("name").innerText = window.localStorage.getItem("name");
 	document.getElementById("uname").innerText = window.localStorage.getItem("uname");
+}
 
+function convoName(){
+	console.log("Conversation with " + window.localStorage.getItem("name"));
+	document.getElementById("name").innerText = "Conversation with " + window.localStorage.getItem("name");
+}
 
-
+function getProfile(){
+	document.getElementById("user").innerText = "Profile of " + window.localStorage.getItem("name");
+	document.getElementById("name").innerText = window.localStorage.getItem("name");
+	window.location='conversation.html';
 
 }
+
+
+
 
 function back(){
 	window.localStorage.clear();
 	window.location = 'contacts.html';
+}
+
+function backConvo(){
+	window.localStorage.clear();
+	window.location = 'inbox.html';
 }
 
 

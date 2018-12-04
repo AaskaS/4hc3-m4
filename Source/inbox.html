@@ -45,63 +45,43 @@ Inbox / Main Screen
 
 	<div class="standardContentWindow">
 		
-		<div class="messageUnread" onclick="location.href='....html'">
+		<div class="messageUnread" onclick="return getConvo()">
 
-			<img src="resources/userpic.png" align="left" class="user" alt="user image">
-			<label class="label">Aaska</label><br>
-			<label class="label" style="font-style: oblique;">Message ...</label>
+			<img src="resources/userpic.png" align="left" class="user" alt="user image" >
+			<label id="user" class="label" >Aaska</label><br>
+			<label class="label" style="font-style: oblique;">Lorem ipsum</label>
 			<img src="resources/reddot.png" class="notif" alt="write image icon">
 			<label class="timestamp">1:55pm</label>
 
 		</div>
 
-		<div class="messageRead" onclick="location.href='....html'">
-			<img src="resources/userpic.png" align="left" class="user" alt="user image">
-			<label class="label">Kerala</label><br>
-			<label class="label" style="font-style: oblique;">Message ...</label><br>
+		<div class="messageRead" onclick="return getConvo2()">
+			<img src="resources/userpic.png" align="left" class="user" alt="user image" >
+			<label id="user2" class="label">Kerala</label><br>
+			<label class="label" style="font-style: oblique;">Lorem ipsum</label><br>
 			<label class="timestamp">12:55pm</label>
 		</div>
 
-		<div class="messageRead" onclick="location.href='....html'">
-			<img src="resources/userpic.png" align="left" class="user" alt="user image">
-			<label class="label">Nolan</label><br>
-			<label class="label" style="font-style: oblique;">Message ...</label><br>
+		<div class="messageRead" onclick="return getConvo3()">
+			<img src="resources/userpic.png" align="left" class="user" alt="user image" >
+			<label id="user3" class="label">Nolan</label><br>
+			<label class="label" style="font-style: oblique;">Lorem ipsum</label><br>
 			<label class="timestamp">Yesterday</label>	
 		</div>
 
-		<div class="messageRead" onclick="location.href='....html'">
-			<img src="resources/userpic.png" align="left" class="user" alt="user image">
-			<label class="label">Vyome</label><br>
-			<label class="label" style="font-style: oblique;">Message ...</label><br>
+		<div class="messageRead" onclick="return getConvo4()">
+			<img src="resources/userpic.png" align="left" class="user" alt="user image" > 
+			<label id="user4" class="label">Vyome</label><br>
+			<label class="label" style="font-style: oblique;">Lorem ipsum</label><br>
 			<label class="timestamp">27-11-2018</label>
 		</div>
 
-		<div class="messageRead" onclick="location.href='....html'">
-			<img src="resources/userpic.png" align="left" class="user" alt="user image">
-			<label class="label">User 1</label><br>
-			<label class="label" style="font-style: oblique;">Message ...</label><br>
-			<label class="timestamp">27-11-2018</label>
-		</div>
 
-		<div class="messageRead" onclick="location.href='....html'">
-			<img src="resources/userpic.png" align="left" class="user" alt="user image">
-			<label class="label">User 2</label><br>
-			<label class="label" style="font-style: oblique;">Message ...</label><br>
-			<label class="timestamp">27-11-2018</label>
-		</div>
+	</div>
 
-		<div class="messageRead" onclick="location.href='....html'">
-			<img src="resources/userpic.png" align="left" class="user" alt="user image">
-			<label class="label">User 3</label><br>
-			<label class="label" style="font-style: oblique;">Message ...</label><br>
-			<label class="timestamp">27-11-2018</label>
-		</div>
-	<div class="footerBar">
+		<div class="foot">
 		<button class="footerButton" onclick="location.href='contacts.html'"><img src="resources/writemsg.png" class="footerIcon" alt="write image icon">Send a Message</button>
 	</div>
-	</div>
-
-	
 
 </body>
 

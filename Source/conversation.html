@@ -30,15 +30,15 @@ Convo screen
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
-<body onload="return scroll()">
+<body onload="scroll(); return convoName() ">
 
-	<div class="standardNav">
+	<div class="standardNav" >
 		<!-- <button class="active navButton">Inbox</button> 
 		<button class="navButton" onclick="location.href='stories.html'">Stories</button>
 		<button class="navButton" onclick="location.href='contacts.html'">Contacts</button>
         <button class="navButton" onclick="location.href='profile.html'">Profile</button> -->
-        <button class="active navButton" onclick="location.href='inbox.html'">&lt; Back</button> 
-        <label class = "label">Conversation with Aaska</label>
+        <button class="active navButton" onclick="return backConvo()">&lt; Back</button> 
+        <label  id="name" class = "label"></label>
 	</div>
 
 	<div class="searchBar">
